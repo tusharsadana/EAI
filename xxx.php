@@ -26,10 +26,10 @@
       <!-- Template Javascript Files -->
       <script src="js/vendor/modernizr-2.6.2.min.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Home | EAI</title>
+      <title>Home | AIU</title>
    </head>
    <body>
-   <?php require('navbar.php') ?>
+      <?php require('navbar.php') ?>
       <section id="hero-area">
          <div class="container" style="max-height:1em;">
             <div class="row">
@@ -39,7 +39,7 @@
                      <section class="cd-intro">
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".3s" style="margin-top: -29px"></h1>
                         <div style="margin-top:2.5%;"></div>
-                        <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".3s" style="margin-top: -29px" ><span >Exploration & Analysis of Information</span></h1>
+                        <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".3s" style="margin-top: -29px" ><span >Association of Indian Universities</span></h1>
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".3s" style="margin-top: -29px"></h1>
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".3s" style="margin-top: 0"><span></span></h1>
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".3s" id="res" style="margin-top: -29px;">
@@ -199,6 +199,6 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 </div>
       
       </section>
-    
+      <?php require('footer.php'); ?>
    </body>
 </html>
