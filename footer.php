@@ -70,3 +70,29 @@
                 </div><!-- /.container -->
             </div><!-- /.footer-widgets -->
         </footer>
+        
+<!-- Bottom -->
+<div class="bottom">
+    <div class="container">
+        <ul class="flat-socials-v1">
+            <li class="facebook">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="twitter">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="vimeo">
+                <a href="#"><i class="fa fa-vimeo"></i></a>
+            </li>
+        
+        </ul>    
+        <div class="row">
+            <div class="container-bottom">
+                <div class="copyright"> 
+                    <p> Designer and Developed by <span><a href="#">Aashis Kumar</a> and <a href="#">Tushar Sadana</a></span></p>
+                </div>
+            </div><!-- /.container-bottom -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
+</div><!-- /. boxed -->

@@ -73,7 +73,7 @@
                 <div class="header-wrap clearfix">
                     <div id="logo" class="logo">
                         <a href="index.html" rel="home">
-                            <img src="images/logo.png" alt="image">
+                            <img src="images/eailogo.png" alt="image">
                         </a>
                     </div><!-- /.logo -->            
                     <div class="nav-wrap">
@@ -92,27 +92,13 @@
                                         <li><a href="courses-grid-sidebar.html">About 2</a></li> 
                                     </ul>
                                     </li> 
-                                <li><a href="contact.html">Contact</a>
+                                <li><a href="contact.php">Contact</a>
                                 </li>
                             </ul><!-- /.menu -->
                         </nav><!-- /.mainnav -->    
                     </div><!-- /.nav-wrap -->
 
 
-                    <!-- Search
-                    <div id="s" class="show-search">
-                        <a href="#"><i class="fa fa-search"></i></a>         
-                    </div>  
-                    
-                    <div class="submenu top-search">
-                        <div class="widget widget_search">
-                            <form class="search-form">
-                                <input type="search" class="search-field" placeholder="Search …">
-                                <input type="submit" class="search-submit">
-                            </form>
-                        </div>
-                    </div>
-                </div> --> 
             </div>
         </header><!-- /.header -->
 

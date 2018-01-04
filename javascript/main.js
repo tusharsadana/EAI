@@ -338,7 +338,7 @@
             $("#map").gmap3({
                 map:{
                     options:{
-                        zoom: 14,
+                        zoom: 15,
                         mapTypeId: 'nah_style',
                         mapTypeControlOptions: {
                             mapTypeIds: ['nah_style', google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.HYBRID]
@@ -347,7 +347,7 @@
                     }
                 },
                 getlatlng:{
-                    address:  "Big Ben Street, E16 3LS, London, United Kingdom",
+                    address:  "Dehmi Kalan, Jaipur-Ajmer Expressway, Near GVK Toll Plaza, Jaipur, Rajasthan 303007",
                     callback: function(results) {
                         if ( !results ) return;
                         $(this).gmap3('get').setCenter(new google.maps.LatLng(results[0].geometry.location.lat(), results[0].geometry.location.lng()));
@@ -358,33 +358,8 @@
                     options:{
                         name: "Nah Map"
                     },
-                    styles: [
-                        {
-                            "featureType": "water",
-                            "stylers": [
-                                { "color": "#81abff" }
-                            ]
-                        },
-                        
-                        {
-                            "featureType": "road.local",
-                            "stylers": [
-                              { "color": "#edebe3" }
-                            ]
-                        },
-                        {
-                            "featureType": "road.highway",
-                            "stylers": [
-                              { "color": "#e3e3e3" }
-                            ]
-                       },
-                       {
-                            "featureType": "poi.park",
-                            "stylers": [
-                              { "color": "#c0d997" }
-                            ]
-                       }                                              
-                    ]
+                    
+                    
                 },  
             });
         }
