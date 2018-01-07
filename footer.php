@@ -89,7 +89,7 @@
         <div class="row">
             <div class="container-bottom">
                 <div class="copyright"> 
-                    <p> Designer and Developed by <span><a href="#">Aashis Kumar</a> and <a href="#">Tushar Sadana</a></span></p>
+                    <p> Designed and Developed by <span><a href="#">Aashis Kumar</a> and <a href="#">Tushar Sadana</a></span></p>
                 </div>
             </div><!-- /.container-bottom -->
         </div><!-- /.row -->
