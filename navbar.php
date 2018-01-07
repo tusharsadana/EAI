@@ -85,11 +85,11 @@
                                 <li><a href ="index.php">Home</a></li>
                                 <li><a href ="index.php">Events</a></li>
                                 <li><a href="about-us.html">Membership</a></li>
-                                <li><a href="team.html">Members</a> </li>                               
+                                <li><a href="course.php">Courses</a> </li>                               
                                 <li class="has-sub"><a href="courses-grid.html">About</a>
                                 	<ul class="submenu"> 
-                                        <li><a href="courses-grid.html">About 1</a></li>
-                                        <li><a href="courses-grid-sidebar.html">About 2</a></li> 
+                                        <li><a href="courses-grid.html">Eai Society</a></li>
+                                        <li><a href="courses-grid-sidebar.html">Members</a></li> 
                                     </ul>
                                     </li> 
                                 <li><a href="contact.php">Contact</a>
