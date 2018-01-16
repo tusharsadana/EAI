@@ -98,7 +98,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
 
-                            style="z-index: 17; white-space: nowrap;text-transform:left;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<BR> doloremque laudantium, totam rem aperiam</div>
+                            style="z-index: 17; white-space: nowrap;text-transform:left;">Founded in the year 2017 EAI Society is one of its kind <br>Asian syndicate working in the field of Science, Information Technology, Data Science.</div>
 
                         <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider bg-orange"         
 
@@ -195,7 +195,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
 
-                            style="z-index: 17; white-space: nowrap;text-transform:left;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<BR> doloremque laudantium, totam rem aperiam</div>
+                            style="z-index: 17; white-space: nowrap;text-transform:left;">We opine that every student have Larry Page hidden inside just<br> need right direction and henceforth we guide them in the right direction.</div>
 
                         <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider bg-orange"         
 
@@ -328,7 +328,7 @@
                 </div>
             </div><!-- /.flat-row -->
 
-            <div class = " flat-row popular-course">
+            <div class = " flat-row popular-course"style = "margin-bottom:-5em">
                 <div class="container">
                     <div class="flat-title-section">
                         <h1 class="title">Board Members</h1>                
@@ -402,6 +402,32 @@
                 </div>
             </div>
 
+            <section class="flat-row partners">
+                <div class="container">
+                    <ul class="partners-slider">
+                        <li>
+                            <img alt="owlcarousel-item-img" src="images/clients/Logo-01.jpg"/>
+                        </li>
+                        <li>
+                            <img alt="owlcarousel-item-img" src="images/clients/Logo-02.jpg"/>
+                        </li>
+                        <li>
+                            <img alt="owlcarousel-item-img" src="images/clients/Logo-03.jpg"/>
+                        </li>
+                        <li>
+                            <img alt="owlcarousel-item-img" src="images/clients/Logo-04.jpg"/>
+                        </li>
+                        <li>
+                            <img alt="owlcarousel-item-img" src="images/clients/Logo-05.jpg"/>
+                        </li>
+                        <li>
+                            <img alt="owlcarousel-item-img" src="images/clients/Logo-06.jpg"/>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
             <div class="flat-row join-us parallax parallax1 overlay bg-222">
                 <div class="overlay bg-222">
                     <div class="container">
@@ -422,6 +448,7 @@
                     </div><!-- /.container -->
                 </div>
             </div>
+
 
 
             <!-- Bad me kam aega for highlights
@@ -529,12 +556,11 @@
                         <h2 class="">Have any question for us?</h2>
 
                         <p class="flat-lh-28">
-                            Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
-                            Mirum est notare quam littera gothica, quam nunc putamus parum
+                           Have any doubt about the membership fee, want to be a mentor or found a bug on the website. Feel free to contact us.  
                         </p> 
 
                         <div class="flat-button-container">
-                            <a class="read-more" href="#">Go to QAs page</a>
+                            <a class="read-more" href="#">Go to FAQ page</a>
                         </div> 
                     </div>
 

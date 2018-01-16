@@ -39,12 +39,14 @@
         							</li>
                                 </ul>
                                 <ul class="flat-socials">
-        							<li class="facebook">
-        								<a href="#">
-        									<i class="fa fa-facebook"></i>
-        								</a>
+        							<li class="youtube">
+        								
+        									Welcome! User <a href="mailto:info@eaisociety.com">Login</a> <a href="mailto:info@eaisociety.com" title="Email address"> Register</a>
+        								
         							</li>
-        							<li class="twitter">
+        							
+                                    <!--
+                                    <li class="twitter">
         								<a href="#">
         									<i class="fa fa-twitter"></i>
         								</a>
@@ -59,6 +61,8 @@
         									<i class="fa fa-youtube-play"></i>
         								</a>
         							</li>
+
+                                     -->
         						</ul>
                             </div>
     					</div>
@@ -71,7 +75,7 @@
     	<header id="header" class="header clearfix"> 
         	<div class="container">
                 <div class="header-wrap clearfix">
-                    <div id="logo" class="logo">
+                    <div id="logo" class="logo" style= "margin-top:0.5em">
                         <a href="index.html" rel="home">
                             <img src="images/eailogo.png" alt="image">
                         </a>
@@ -84,7 +88,7 @@
                             <ul class="menu"> 
                                 <li><a href ="index.php">Home</a></li>
                                 <li><a href ="index.php">Events</a></li>
-                                <li><a href="about-us.html">Membership</a></li>
+                                <li><a href="admin.php">Membership</a></li>
                                 <li><a href="course.php">Courses</a> </li>                               
                                 <li class="has-sub"><a href="courses-grid.html">About</a>
                                 	<ul class="submenu"> 
