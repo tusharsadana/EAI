@@ -20,6 +20,10 @@
     <link rel ="stylesheet" type="text/css" href="stylesheets/index_card.css">
 
 
+   
+
+
+
     <!-- Responsive -->
     <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
 

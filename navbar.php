@@ -1,5 +1,11 @@
+
+
+
 <?php
 ?>
+
+ <!-- firebase -->
+ <?php require('firebase/init.php')?>
 
 <div class="boxed">
         <div class="windows8">
@@ -88,7 +94,7 @@
                             <ul class="menu"> 
                                 <li><a href ="index.php">Home</a></li>
                                 <li><a href ="index.php">Events</a></li>
-                                <li><a href="admin.php">Membership</a></li>
+                                <li><a href="membership.php">Membership</a></li>
                                 <li><a href="course.php">Courses</a> </li>                               
                                 <li class="has-sub"><a href="courses-grid.html">About</a>
                                 	<ul class="submenu"> 

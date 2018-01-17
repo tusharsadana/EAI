@@ -1,63 +1,3 @@
-<?php
-
-  require_once 'includes/db.php';
-
-  $email = $password = '';
-  $email_err = $password_err = '';
-
-  
-
-  if($_SERVER['REQUEST_METHOD'] === 'POST'){
-    // Sanitize POST
-    $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
-
-    if (isset($_POST['email']))    
-        {  
-            $email = trim($_POST['email']);
-            if (isset($_POST['password'])) { 
-                $password = trim($_POST['password']);
-            }
-            
-        }   
-
-    // Make sure errors are empty
-    if(empty($email_err) && empty($password_err)){
-      $sql = 'SELECT name, email, password FROM users WHERE email = :email';
-
-      
-      if($stmt = $pdo->prepare($sql)){
-        $stmt->bindParam(':email', $email, PDO::PARAM_STR);
-
-        if($stmt->execute()){
-          // Check if email exists
-          if($stmt->rowCount() === 1){
-            if($row = $stmt->fetch()){
-              $hashed_password = $row['password'];
-              if(password_verify($password, $hashed_password)){
-                // SUCCESSFUL LOGIN
-                session_start();
-                $_SESSION['email'] = $email;
-                $_SESSION['name'] = $row['name'];
-                header('location: course.php');
-              } else {
-                $password_err = 'The password you entered is not valid';
-              }
-            }
-          } else {
-            $email_err = 'No account found for that email';
-          }
-        } else {
-          die('Something went wrong');
-        }
-      }
-
-      unset($stmt);
-    }
-
-
-    unset($pdo);
-  }
-?>
 
 
 <!DOCTYPE html>
@@ -113,12 +53,12 @@
 
 
 <div id="wrapper">
-	<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+	<form action=" " method="POST">
 		<div class="input-wrapper">
-			<label for="email"><i class="fa fa-envelope fa-2x"></i></label><input type="email" name="email" placeholder="Username" spellcheck="false" required="" class="<?php echo (!empty($email_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $email; ?>">
+			<label for="email"><i class="fa fa-envelope fa-2x"></i></label><input type="email" name="email" placeholder="Username" spellcheck="false" required="" >
         </div>
 		<div class="input-wrapper">
-			<label for="password"><i class="fa fa-lock fa-2x"></i></label><input type="password" name="password" placeholder="Password" required="" class=" <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
+			<label for="password"><i class="fa fa-lock fa-2x"></i></label><input type="password" name="password" placeholder="Password" required="">
 		</div>
 		<div class="input-wrapper">
 			<input type="submit" value="Sign In" class="flat-button bg-orange">

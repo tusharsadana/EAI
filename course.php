@@ -1,16 +1,4 @@
-<?php
 
-  session_start();
-
-  
-  require_once 'includes/db.php';
-
-  // Validate login
-  if(!isset($_SESSION['email']) || empty($_SESSION['email'])){
-    header('location: membership.php');
-    exit;
-  }
-?>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
