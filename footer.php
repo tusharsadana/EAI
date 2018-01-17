@@ -82,9 +82,15 @@
                 <a href="#"><i class="fa fa-twitter"></i></a>
             </li>
             <li class="vimeo">
-                <a href="#"><i class="fa fa-vimeo"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
             </li>
-        
+            <li class="vimeo">
+                <a href="#"><i class="fa fa-youtube "></i></a>
+            </li>
+            </li>
+            <li class="vimeo">
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
         </ul>    
         <div class="row">
             <div class="container-bottom">

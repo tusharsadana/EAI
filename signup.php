@@ -51,23 +51,6 @@
 
 
 
-<div id="wrapper">
-	<form  method="POST">
-		<div class="input-wrapper">
-			<label for="email"><i class="fa fa-envelope fa-2x"></i></label><input type="email" name="email" placeholder="Username" spellcheck="false" required="" >
-        </div>
-		<div class="input-wrapper">
-			<label for="password"><i class="fa fa-lock fa-2x"></i></label><input type="password" name="password" placeholder="Password" required="" >
-		</div>
-		<div class="input-wrapper">
-			<input type="submit" value="Sign In" class="flat-button bg-orange">
-			<p>
-				Not a member? <a href="signup.php">Sign up now</a> <span>&rarr;</span>
-			</p>
-		</div>
-	</form>
-</div>
-
 
 
 

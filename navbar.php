@@ -7,6 +7,9 @@
  <!-- firebase -->
  <?php require('firebase/init.php')?>
 
+
+
+
 <div class="boxed">
         <div class="windows8">
             <div class="preload-inner">
@@ -47,28 +50,40 @@
                                 <ul class="flat-socials">
         							<li class="youtube">
         								
-        									Welcome! User <a href="mailto:info@eaisociety.com">Login</a> <a href="mailto:info@eaisociety.com" title="Email address"> Register</a>
+        									Welcome! User <a href="#modal" id= "modal_trigger">Login</a> <a href="mailto:info@eaisociety.com" title="Email address"> Register</a>
         								
         							</li>
-        							
-                                    <!--
-                                    <li class="twitter">
-        								<a href="#">
-        									<i class="fa fa-twitter"></i>
-        								</a>
-        							</li>
-        							<li class="linkedin">
-        								<a href="#">
-        									<i class="fa fa-linkedin"></i>
-        								</a>
-        							</li>
-        							<li class="youtube">
-        								<a href="#">
-        									<i class="fa fa-youtube-play"></i>
-        								</a>
-        							</li>
 
-                                     -->
+                                    
+                                    <div id="modal" class="popupContainer" style="display:none;">
+				
+
+                                    <section class="popupBody">
+
+                                   <div ><h3 >LOGIN<h3></div>
+                                    <form action=" " method="POST">
+                                        <div class="input-wrapper">
+                                            <label for="email"><i class="fa fa-envelope fa-2x"></i></label><input type="email" name="email" placeholder="Username" spellcheck="false" required="" >
+                                        </div>
+                                        <div class="input-wrapper">
+                                            <label for="password"><i class="fa fa-lock fa-2x"></i></label><input type="password" name="password" placeholder="Password" required="">
+                                        </div>
+                                        <div class="input-wrapper">
+                                            <input type="submit" value="Sign In" class="flat-button bg-orange">
+                                            
+                                            
+                                    </form>
+                                </div>
+
+                                <p style="text-align:right" ><a href="#">Forgot Password</a></p>
+                                
+                                
+                                
+                    
+                                            
+                                    </section>
+                            </div>
+        						
         						</ul>
                             </div>
     					</div>
@@ -93,7 +108,7 @@
                         <nav id="mainnav" class="mainnav">
                             <ul class="menu"> 
                                 <li><a href ="index.php">Home</a></li>
-                                <li><a href ="index.php">Events</a></li>
+                                <li><a href ="events.php">Events</a></li>
                                 <li><a href="membership.php">Membership</a></li>
                                 <li><a href="course.php">Courses</a> </li>                               
                                 <li class="has-sub"><a href="courses-grid.html">About</a>
@@ -114,20 +129,12 @@
 
 
 
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://andwecode.com/wp-content/uploads/2015/10/jquery.leanModal.min_.js'></script>
+<script src= "javascript/test.js"></script>
 
 
 
+<style>
 
-        <!-- submenu
-    
-     
-                                
-                                <li><a href="blog.html">About</a>
-                                    <ul class="submenu"> 
-                                        <li><a href="blog.html">About Data 1</a></li>
-                                        <li><a href="blog-single.html">About Data 2</a></li> 
-                                    </ul>
-                                </li>
-                                
-                                
-                                -->
+    </style>

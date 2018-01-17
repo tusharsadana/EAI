@@ -3463,3 +3463,97 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	text-shadow: 0 0 2px rgba( 0, 0, 0, 1 );
 }
 
+
+
+#lean_overlay {
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	display: none;
+}
+
+.popupContainer {
+	position: absolute;
+	width: 330px;
+	height: auto;
+	left: 45%;
+	top: 60px;
+	background: #FAFAFA;
+}
+
+
+#wrapper {
+    position: relative;
+    margin-top:15em;
+    left: 50%;
+    width: 281px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.popupBody {
+	padding: 20px;
+}
+
+input,
+label {
+    height: 49px;
+  
+}
+input:not([type='submit']) {
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 235px;
+    height: 49px;
+    padding-right: 4px;
+    padding-left: 18px;
+    color: #767a7f;
+    border-style: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    outline-style: none;
+    background-color: #3b4148;
+}
+label {
+    display: inline-block;
+    width: 46px;
+    text-align: center;
+    vertical-align: top;
+    color: #606468;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #363b41;
+}
+i[class^='fa'] {
+    line-height: 1.5;
+    color: #606468;
+}
+.input-wrapper {
+    margin-bottom: 13px;
+}
+::-webkit-input-placeholder {
+    color: #767a7f;
+}
+::-moz-placeholder {
+    color: #767a7f;
+}
+:-moz-placeholder {
+    color: #767a7f;
+}
+:-ms-input-placeholder {
+    color: #767a7f;
+}
+
+input[type='submit'] {
+    font-weight: 600;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    border-style: none;
+    border-radius: 3px;
+}
