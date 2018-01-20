@@ -41,10 +41,8 @@
                                 </ul>
                                 <ul class="flat-socials">
         							<li class="youtube">
-        								
-        									Welcome! User <a href="#modal" id= "modal_trigger">Login</a> <a href="mailto:info@eaisociety.com" title="Email address"> Register</a>
-        								
-        							</li>
+                                   Welcome! User <a href="#modal" id= "modal_trigger">Login</a> <a href="mailto:info@eaisociety.com" title="Email address"> Register</a>
+                                    </li>
                                     
                                     <div id="modal" class="popupContainer" style="display:none;">
 				
@@ -122,3 +120,7 @@
 <script src= "javascript/test.js"></script>
 <script src="firebase/init.js" type="text/javascript"></script>
 <script src="firebase/userAuth.js" type="text/javascript"></script>
+
+<script>
+user();
+</script>

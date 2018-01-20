@@ -63,23 +63,23 @@
 <div class="bg-agile" style="margin-top:3em">
 	<div class="book-appointment">
 	<h2>General Information</h2>
-			<form action="#" method="post">
+			<form action="#" method="post"  onsubmit="Signin()" >
 				<div class="left-agileits-w3layouts same">
 					<div class="gaps">
 						<p>First Name</p>
-						<input type="text" name="First Name" placeholder="" required=""/>
+						<input type="text" name="First Name" placeholder="" required="" id = "userName"/>
 					</div>	
 					<div class="gaps">
 						<p>Middle Name</p>
-						<input type="text" name="First Name" placeholder="" required=""/>
+						<input type="text" name="First Name" placeholder="" required="" id = "middleName"/>
 					</div>
 					<div class="gaps">
 						<p>Last Name</p>
-							<input type="text" name="Last Name" placeholder="" required=""/>
+							<input type="text" name="Last Name" placeholder="" required="" id = "lastName"/>
 					</div>
 					<div class="gaps">
 						<p>Gender</p>	
-							<select class="form-control">
+							<select class="form-control" id = "gender">
 								<option></option>
 								<option>Male</option>
 								<option>Female</option>
@@ -87,11 +87,11 @@
 					</div>
 					<div class="gaps">
 						<p>Date of Birth</p>		
-						<input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+						<input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="" >
 					</div>
 					<div class="gaps">
 						<p>Primary Intrest</p>
-						<select class="form-control">
+						<select class="form-control" id = "intrest">
 								<option>Select Intrest </option>
 								<option>Computer Applications</option>
 										<option >Computer Systems Organization</option>
@@ -108,7 +108,7 @@
 		
 					<div class="gaps">	
 						<p>Phone Number</p>
-						<input type="text" name="Number" placeholder="" required=""/>
+						<input type="text" name="Number" placeholder="" required="" id = "phoneNumber"/>
 					</div>	
 				
 				</div>
@@ -116,7 +116,7 @@
 
 					<div class="gaps">
 						<p>Affiliation/ Institute</p>
-						<input type="text" name="First Name" placeholder="" required=""/>
+						<input type="text" name="First Name" placeholder="" required="" id = "affiliation"/>
 					</div>
 					<div class="gaps">
 						<p>Country</p>	
@@ -131,7 +131,7 @@
 					</div>
 					<div class="gaps">
 						<p>City</p>
-						<input type="text" name="First Name" placeholder="" required=""/>
+						<input type="text" name="First Name" placeholder="" required="" id = "city"/>
 					</div>
 
 					<div class="gaps">
@@ -144,7 +144,7 @@
 					
 					<div class="gaps">	
 						<p>Pin Code</p>
-						<input type="text" name="Number" placeholder="" required=""/>
+						<input type="text" name="Number" placeholder="" required="" id = "pinCode"/>
 					</div>
                 </div>
                 
@@ -158,23 +158,23 @@
                 <div class="left-agileits-w3layouts same">
 					<div class="gaps">
 						<p>Email Address</p>
-						<input type="text" name="First Name" placeholder="" required=""/>
+						<input type="text" name="First Name" placeholder="" required="" id = "eMail"/>
 					</div>	
 					<div class="gaps">
 						<p>Password</p>
-							<input type="text" name="Last Name" placeholder="" required=""/>
+							<input type="password" name="Last Name" placeholder="" required="" id = "password"/>
                     </div>
                     </div>
 
                     <div class="right-agileinfo same">
 					<div class="gaps">
-						<p>Re-Enter Password</p>
-						<input type="text" name="First Name" placeholder="" required=""/>
+						<p>Re-Type Password</p>
+						<input type="password" name="First Name" placeholder="" required="" id = "password2"/>
                     </div>
                 </div>
                 <div class="clear"></div>
                 <div class="g-recaptcha" style= "display: table;margin-right: auto;margin-left: auto;margin-top:2em" data-sitekey="6LfkQkEUAAAAABjcIyKUJQPtwrEdj2psc8-ZqHOE"></div>
-				<input type="submit" value="Submit">
+				<input type="submit" value="Submit" onClick= "Signin()" >
 			</form>
 		</div>
    </div>
@@ -293,7 +293,7 @@ h1 {
     background:rgba(0, 0, 0, 0.24);
     padding: 50px 30px;
 }
-.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"],textarea {
+.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"],textarea {
     width: 85%;
     color: #fff;
     outline: none;
@@ -413,7 +413,7 @@ p.wickedpicker__title {
 	.gaps {
 		padding-left: 2em;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		width: 90%;
 	}
 	 select.form-control {
@@ -467,7 +467,7 @@ p.wickedpicker__title {
 		font-size: 21px;
 		margin-bottom: 1.3em;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		margin: .3em 0em .7em;
 	}
 	.book-appointment select.form-control {
@@ -495,7 +495,7 @@ p.wickedpicker__title {
 		font-size: 18px;
 		letter-spacing: 3px;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		line-height: 21px;
 	}
 	textarea {
@@ -577,7 +577,7 @@ p.wickedpicker__title {
 	.book-appointment p {
 		font-size: 13px;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		margin: .3em 0em .8em;
 	}
 	.book-appointment select.form-control {
@@ -653,7 +653,7 @@ p.wickedpicker__title {
 	.book-appointment {
 		padding: 35px 40px;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		width: 93.5%;
 	}
 	h1 {
@@ -689,7 +689,7 @@ p.wickedpicker__title {
 		margin-bottom: 1.5em;
 		letter-spacing: 2.5px;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		width: 91.5%;
 	}
 }
@@ -720,7 +720,7 @@ p.wickedpicker__title {
 	.bg-agile {
 		width: 86%;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		width: 91.8%;
 	}
 }
@@ -740,7 +740,7 @@ p.wickedpicker__title {
 	.book-appointment {
 		padding: 35px 25px;
 	}
-	.book-appointment input[type="text"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
+	.book-appointment input[type="text"],input[type="password"], .book-appointment input[type="date"], .book-appointment input[type="time"], .book-appointment input[type="email"], textarea {
 		width: 91%;
 	}
 	body {
@@ -765,7 +765,53 @@ p.wickedpicker__title {
 </script>
 
 
+<script>
+function Signin(){
 
+var userName = document.getElementById("userName").value;
+var middleName = document.getElementById("middleName").value;
+var lastName = document.getElementById("lastName").value;
+var gender = document.getElementById("gender").value;
+var dateOfBirth = document.getElementById("datepicker1").value;
+var intrest = document.getElementById("intrest").value;
+var phoneNumber = document.getElementById("phoneNumber").value;
+var affiliation = document.getElementById("affiliation").value;
+var country = document.getElementById("country").value;
+var state = document.getElementById("state").value;
+var city = document.getElementById("city").value;
+var message  = document.getElementById("message").value;         //street address
+var pinCode = document.getElementById("pinCode").value;
+var eMail = document.getElementById("eMail").value;
+var password = document.getElementById("password").value;
+var password2 = document.getElementById("password2").value;
+var noth = "0";
+
+
+console.log(city)
+if (password == password2){
+
+	var details = {
+		country :country,
+		state : state,
+		city : city,
+		street : message
+	   }
+
+	var data = {
+
+	username :userName, middlename:middleName, lastname : lastName , intrest :intrest, adddress :details, phoneNumber : phoneNumber,affiliation:affiliation,follows: noth ,subscription:noth,
+}
+
+var database = firebase.database();
+var ref = database.ref('students');
+ref.push(data);
+
+}
+
+}
+
+
+</script>
 
 
 </html>            
