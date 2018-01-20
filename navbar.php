@@ -1,13 +1,5 @@
-
-
-
 <?php
 ?>
-
- <!-- firebase -->
- <?php require('firebase/init.php')?>
-
-
 
 
 <div class="boxed">
@@ -53,17 +45,14 @@
         									Welcome! User <a href="#modal" id= "modal_trigger">Login</a> <a href="mailto:info@eaisociety.com" title="Email address"> Register</a>
         								
         							</li>
-
                                     
                                     <div id="modal" class="popupContainer" style="display:none;">
 				
-
                                     <section class="popupBody">
-
                                    <div ><h3 >LOGIN<h3></div>
                                     <form action=" " method="POST">
                                         <div class="input-wrapper">
-                                            <label for="email"><i class="fa fa-envelope fa-2x"></i></label><input type="email" name="email" placeholder="Username" spellcheck="false" required="" >
+                                            <label for="email"><i class="fa fa-envelope fa-2x"></i></label><input type="email" name="email" placeholder="Email Address" spellcheck="false" required="" >
                                         </div>
                                         <div class="input-wrapper">
                                             <label for="password"><i class="fa fa-lock fa-2x"></i></label><input type="password" name="password" placeholder="Password" required="">
@@ -74,7 +63,6 @@
                                             
                                     </form>
                                 </div>
-
                                 <p style="text-align:right" ><a href="#">Forgot Password</a></p>
                                 
                                 
@@ -91,7 +79,6 @@
     			</div>
     		</div>      
     	</div><!-- /.header-inner-pages -->
-
     	<!-- Header --> 
     	<header id="header" class="header clearfix"> 
         	<div class="container">
@@ -109,7 +96,7 @@
                             <ul class="menu"> 
                                 <li><a href ="index.php">Home</a></li>
                                 <li><a href ="events.php">Events</a></li>
-                                <li><a href="membership.php">Membership</a></li>
+                                <li><a href="signup.php">Membership</a></li>
                                 <li><a href="course.php">Courses</a> </li>                               
                                 <li class="has-sub"><a href="courses-grid.html">About</a>
                                 	<ul class="submenu"> 
@@ -122,19 +109,16 @@
                             </ul><!-- /.menu -->
                         </nav><!-- /.mainnav -->    
                     </div><!-- /.nav-wrap -->
-
-
             </div>
         </header><!-- /.header -->
-
-
-
-        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        
+        
+        
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://andwecode.com/wp-content/uploads/2015/10/jquery.leanModal.min_.js'></script>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
 <script src= "javascript/test.js"></script>
-
-
-
-<style>
-
-    </style>
+<script src="firebase/init.js" type="text/javascript"></script>
+<script src="firebase/userAuth.js" type="text/javascript"></script>

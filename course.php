@@ -92,10 +92,7 @@
                                             <option value="oldest">Oldest</option>
                                         </select>
                                     </label>
-                                    <div class="list-grid">
-                                        <a data-layout = "course-grid" class="course-grid-view" href="#"><i class="fa fa-th" aria-hidden="true"></i></a>
-                                        <a data-layout = "course-list" class="course-list-view active" href="#"><i class="fa fa-list" aria-hidden="true"></i></a>
-                                    </div>
+                                   
                                 </div>
                             </div>
 

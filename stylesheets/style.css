@@ -3472,17 +3472,27 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	left: 0px;
 	height: 100%;
 	width: 100%;
-	background: #000;
+	background: rgb(43, 42, 42);
 	display: none;
 }
 
 .popupContainer {
+	padding-top:1em;
+	padding-right:5em;
+	padding-left:5em;
 	position: absolute;
-	width: 330px;
+	width: auto;
 	height: auto;
 	left: 45%;
 	top: 60px;
-	background: #FAFAFA;
+	background: rgba(15, 15, 15, 0.81);
+}
+
+@media (max-width: 480px){
+
+.popupContainer {
+    padding: 20px;
+}
 }
 
 
@@ -3530,8 +3540,8 @@ label {
     background-color: #363b41;
 }
 i[class^='fa'] {
-    line-height: 1.5;
-    color: #606468;
+    line-height: 1.7;
+ 
 }
 .input-wrapper {
     margin-bottom: 13px;
