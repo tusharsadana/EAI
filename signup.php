@@ -63,7 +63,7 @@
 <div class="bg-agile" style="margin-top:3em">
 	<div class="book-appointment">
 	<h2>General Information</h2>
-			<form action="#" method="post"  onsubmit="Signin()" >
+			<form method= "post" onsubmit="Signin()" class = "signup">
 				<div class="left-agileits-w3layouts same">
 					<div class="gaps">
 						<p>First Name</p>
@@ -87,12 +87,12 @@
 					</div>
 					<div class="gaps">
 						<p>Date of Birth</p>		
-						<input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="" >
+						<input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"  >
 					</div>
 					<div class="gaps">
-						<p>Primary Intrest</p>
+						<p>Primary Interest</p>
 						<select class="form-control" id = "intrest">
-								<option>Select Intrest </option>
+								<option>Select Interest </option>
 								<option>Computer Applications</option>
 										<option >Computer Systems Organization</option>
 										<option >Computing Methodologies</option>	
@@ -173,8 +173,8 @@
                     </div>
                 </div>
                 <div class="clear"></div>
-                <div class="g-recaptcha" style= "display: table;margin-right: auto;margin-left: auto;margin-top:2em" data-sitekey="6LfkQkEUAAAAABjcIyKUJQPtwrEdj2psc8-ZqHOE"></div>
-				<input type="submit" value="Submit" onClick= "Signin()" >
+                <!-- <div class="g-recaptcha" style= "display: table;margin-right: auto;margin-left: auto;margin-top:2em" data-sitekey="6LfkQkEUAAAAABjcIyKUJQPtwrEdj2psc8-ZqHOE"></div> -->
+				<input type="submit" value="Submit">
 			</form>
 		</div>
    </div>
@@ -765,53 +765,6 @@ p.wickedpicker__title {
 </script>
 
 
-<script>
-function Signin(){
-
-var userName = document.getElementById("userName").value;
-var middleName = document.getElementById("middleName").value;
-var lastName = document.getElementById("lastName").value;
-var gender = document.getElementById("gender").value;
-var dateOfBirth = document.getElementById("datepicker1").value;
-var intrest = document.getElementById("intrest").value;
-var phoneNumber = document.getElementById("phoneNumber").value;
-var affiliation = document.getElementById("affiliation").value;
-var country = document.getElementById("country").value;
-var state = document.getElementById("state").value;
-var city = document.getElementById("city").value;
-var message  = document.getElementById("message").value;         //street address
-var pinCode = document.getElementById("pinCode").value;
-var eMail = document.getElementById("eMail").value;
-var password = document.getElementById("password").value;
-var password2 = document.getElementById("password2").value;
-var noth = "0";
-
-
-console.log(city)
-if (password == password2){
-
-	var details = {
-		country :country,
-		state : state,
-		city : city,
-		street : message
-	   }
-
-	var data = {
-
-	username :userName, middlename:middleName, lastname : lastName , intrest :intrest, adddress :details, phoneNumber : phoneNumber,affiliation:affiliation,follows: noth ,subscription:noth,
-}
-
-var database = firebase.database();
-var ref = database.ref('students');
-ref.push(data);
-
-}
-
-}
-
-
-</script>
 
 
 </html>            

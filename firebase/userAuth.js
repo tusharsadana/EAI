@@ -26,7 +26,8 @@ function test(){
 
 
 function Signin(){
-
+    
+    event.preventDefault();
     var userName = document.getElementById("userName").value;
     var middleName = document.getElementById("middleName").value;
     var lastName = document.getElementById("lastName").value;
@@ -46,28 +47,47 @@ function Signin(){
     var noth = "0";
 
 
+    //to delete
+    var courses = ["machine learning","OOPJ","How to cook"];
+    var rooms = ["electrical engineering","computerScience"];
+    
+
     console.log(city)
     if (password == password2){
-
+    
         var details = {
             country :country,
             state : state,
             city : city,
-            street : message
+            street : message,
+            pin : pinCode
            }
 
+    
+    
         var data = {
-
-        username :userName, middlename:middleName, lastname : lastName , intrest :intrest, adddress :details, phoneNumber : phoneNumber,affiliation:affiliation,follows: noth ,subscription:noth,
+             firstname :userName,
+             middlename:middleName, 
+             lastname : lastName ,
+             interest :intrest, 
+             adddress :details, 
+             phoneNumber : phoneNumber,
+             affiliation:affiliation,
+             follows: courses,
+             dateofbirth :dateOfBirth,
+             gender : gender,
+             subscription: rooms
     }
-
+    
     var database = firebase.database();
     var ref = database.ref('students');
     ref.push(data);
+
+   
+
+    return true;
+    }
     
     }
-
-}
-
-
+    
 
