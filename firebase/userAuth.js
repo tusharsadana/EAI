@@ -7,16 +7,20 @@ var user = firebase.auth().currentUser;
 
 
 firebase.auth().onAuthStateChanged(function(user) {
-    
-var LoggedIn ='<li class="youtube">Welcome!' +' ' + user.uid +' '+ '<a href="#modal" id= "modal_trigger" style ="margin-left:1em">Logout</a> </li>'
+
+var LoggedIn ='<li class="youtube">Welcome!' +' ' + user.email +' '+ '<a href="" onclick="logout()" style ="margin-left:1em">Logout</a> </li>'
 
     if (user) {
-        
-       // LoggedIn + x.innerHTML;
+     
+
+         x.innerHTML = LoggedIn ;
+         var member = document.getElementById('membership');
+        member.style.display="none";
+        var course = document.getElementById('course');
+        course.style.display="block";
        
     } else {
-     
-       //todo : User is not logged in do somthing
+    
 
     }
 
@@ -156,18 +160,26 @@ function login(){
        
         console.log(user);
         
+        location.href="index.php";
+        user();
+        
     })
     
     .catch(function(error) {
         // Handle Errors here.
         var errorCode = error.code;
         var errorMessage = error.message;
-        console.log(errorMessage)
+        var er = document.getElementById('error');
+        er.innerHTML = 'Username or Password is not Correct.'
       });
-      user();
+    
+
     }
+
 function logout(){
     firebase.auth().signOut().then(function() {
+        var logged = '<li class="youtube" id="youtube"> <p> <a href="#modal" id= "modal_trigger" >Login  </a> | <a href="signup.php" title="Register"> Register</a></p> </li>'
+        x.innerHTML =logged;
         // Sign-out successful.
       }).catch(function(error) {
         // An error happened.

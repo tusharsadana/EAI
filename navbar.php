@@ -1,4 +1,3 @@
-
 <div class="boxed">
 <div class="windows8">
    <div class="preload-inner">
@@ -37,9 +36,8 @@
                      </li>
                   </ul>
                   <ul class="flat-socials">
-                     <li class="youtube">
-                        <p class="unauthenticated">Welcome! <a href="" onclick="logout()" > Logout</a></p>
-                         <p class="sauthenticated"> <a href="#modal" id= "modal_trigger" >Login </a> <a href="signup.php" title="Register"> Register</a></p>
+                     <li class="youtube" id="youtube">
+                        <p> <a href="#modal" id= "modal_trigger" >Login  </a> | <a href="signup.php" title="Register"> Register</a></p>
                      </li>
                      <div id="modal" class="popupContainer" style="display:none;">
                         <section class="popupBody">
@@ -47,6 +45,7 @@
                               <h3 style="color:white" >
                               LOGIN
                               <h3>
+                              <h6 id="error" style="color:red;"></h6>
                            </div>
                            <form onsubmit="login()" method="POST">
                               <div class="input-wrapper">
@@ -86,11 +85,12 @@
          </div>
          <!-- //mobile menu button -->
          <nav id="mainnav" class="mainnav">
-            <ul class="menu">
+            
+            <ul class="menu menuless" >
                <li><a href ="index.php">Home</a></li>
                <li><a href ="events.php">Events</a></li>
-               <li><a href="signup.php">Membership</a></li>
-               <li><a href="course.php">Courses</a> </li>
+               <li id="membership"><a href="signup.php">Membership</a></li>
+               <li id="course" style="display:none;"><a href="course.php">Courses</a> </li>
                <li class="has-sub">
                   <a href="courses-grid.html">About</a>
                   <ul class="submenu">
@@ -101,19 +101,20 @@
                <li><a href="contact.php">Contact</a>
                </li>
             </ul>
-            <!-- /.menu -->
+
          </nav>
+
          <!-- /.mainnav -->    
       </div>
       <!-- /.nav-wrap -->
    </div>
 </header>
 <style type="text/css">
-    #contacts p, #contacts p.lead{ margin: 0; }
-    .authenticated{ display: block;}
-    .unauthenticated{display: none;}
-    .modal-header:last-child{border-bottom: 0;}
-  </style>
+   #contacts p, #contacts p.lead{ margin: 0; }
+   .authenticated{ display: block;}
+   .unauthenticated{display: none;}
+   .modal-header:last-child{border-bottom: 0;}
+</style>
 <!-- /.header -->
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://andwecode.com/wp-content/uploads/2015/10/jquery.leanModal.min_.js'></script>
