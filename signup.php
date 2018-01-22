@@ -53,15 +53,16 @@
    
 </head> 
 <?php require('navbar.php');?>
-<body>
+<body >
+
+<div id="particles-js"> </div>
 
 
 
 
 
-
-<div class="bg-agile" style="margin-top:3em">
-	<div class="book-appointment">
+<div class="bg-agile" style="margin-top:3em"  >
+	<div class="book-appointment" style="position:relative" >
 	<h2>General Information</h2>
 			<form method= "post" onsubmit="Signin()" class = "signup">
 				<div class="left-agileits-w3layouts same">
@@ -87,11 +88,11 @@
 					</div>
 					<div class="gaps">
 						<p>Date of Birth</p>		
-						<input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"  >
+						<input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="" >
 					</div>
 					<div class="gaps">
 						<p>Primary Interest</p>
-						<select class="form-control" id = "intrest">
+						<select class="form-control" id = "intrest" required="">
 								<option>Select Interest </option>
 								<option>Computer Applications</option>
 										<option >Computer Systems Organization</option>
@@ -125,7 +126,7 @@
 					</div>
 					<div class="gaps">
 						<p>State</p>	
-						<select class="form-control" name ="state" id ="state">
+						<select class="form-control" name ="state" id ="state" required="">
 						
 						</select>
 					</div>
@@ -162,14 +163,14 @@
 					</div>	
 					<div class="gaps">
 						<p>Password</p>
-							<input type="password" name="Last Name" placeholder="" required="" id = "password"/>
+							<input type="password" name="Last Name" placeholder="" minlength="8" required="" id = "password"/>
                     </div>
                     </div>
 
                     <div class="right-agileinfo same">
 					<div class="gaps">
 						<p>Re-Type Password</p>
-						<input type="password" name="First Name" placeholder="" required="" id = "password2"/>
+						<input type="password" name="First Name" placeholder="" minlength="8" required="" id = "password2"/>
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -179,12 +180,12 @@
 		</div>
    </div>
 
+</div>
   
 
 
 
 
-<?php require('footer.php');?>
 
 <a class="go-top">
     <i class="fa fa-chevron-up"></i>
@@ -219,7 +220,14 @@ if (recaptcha === "") {
 });
 
 
-    </script>
+	</script>
+	
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  
+  
+
+  <script  src="javascript/particle.js"></script>
 
 <link rel="stylesheet" href="stylesheets/jquery-ui.css" />
 <script src="javascript/jquery-ui.js"></script>
@@ -252,16 +260,29 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*--end reset--*/
 body{
-	    font-family: 'Roboto', sans-serif;
+	 font-family: 'Roboto', sans-serif;
     font-size: 100%;
-    background: url(images/10.jpg)no-repeat center top;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-attachment: fixed;
     padding: 0 0 2em;
+	background-image: url("http://letupdate.com/data/out/42/4270286-blurred-wallpaper.jpg");
+	background-attachment: fixed;
+	margin:0;
+
 }
+canvas{
+     display: block;
+     vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+ #particles-js{
+	position: fixed;
+	width: 100%;
+   height: 100%;   
+	 z-index: -0.1;
+	 background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
 .bg-agile {
     width: 65%;
     margin: 0 auto;

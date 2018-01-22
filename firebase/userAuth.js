@@ -25,6 +25,11 @@ function test(){
 
 
 
+
+
+
+
+
 function Signin(){
     
     event.preventDefault();
@@ -46,42 +51,85 @@ function Signin(){
     var password2 = document.getElementById("password2").value;
     var noth = "0";
 
-
+   
+   
     //to delete
-    var courses = ["machine learning","OOPJ","How to cook"];
-    var rooms = ["electrical engineering","computerScience"];
+    var courses = {
+
+        MachineLearning : {
+            VideoWatched : 3,
+            PresentDone  : "47%"
+        },
+
+    }
+    
+    
+    
+    var rooms = {
+            
+            "1": {
+                Name : "Computer Method",
+                Validity : Date.now(),
+                purchasedAt: Date.now()
+
+            },
+            "2": {
+                Name : "Computer Method",
+                Validity : Date.now(),
+                PurchasedAt: Date.now()
+
+            }
+
+        }
     
 
-    console.log(city)
+  
     if (password == password2){
     
         var details = {
-            country :country,
-            state : state,
-            city : city,
-            street : message,
-            pin : pinCode
+            Country :country,
+            State : state,
+            City : city,
+            Street : message,
+            Pin : pinCode
            }
 
     
     
         var data = {
-             firstname :userName,
-             middlename:middleName, 
-             lastname : lastName ,
-             interest :intrest, 
-             adddress :details, 
-             phoneNumber : phoneNumber,
-             affiliation:affiliation,
-             follows: courses,
-             dateofbirth :dateOfBirth,
-             gender : gender,
-             subscription: rooms
+             FirstName :userName,
+             MiddleName:middleName, 
+             LastName : lastName ,
+             Interest :intrest, 
+             Adddress :details, 
+             PhoneNumber : phoneNumber,
+             Affiliation:affiliation,
+             Follows: courses,
+             DateOfBirth :dateOfBirth,
+             Gender : gender,
+             Subscription: rooms
     }
     
-    var database = firebase.database();
-    var ref = database.ref('students');
-    ref.push(data);
+   
+            var ref = firebase.database().ref('Students');
+            ref.push(data);
+    
+
+    firebase.auth().createUserWithEmailAndPassword(eMail,password)
+        .then(user =>{
+
+            var user = firebase.auth().currentUser;
+            var ref = firebase.database().ref('Students/'+user.uid);
+            ref.set(data);
+            console.log(user);
+            location.href="index.php";
+        })
+        .catch(error =>{
+            console.log(error)
+        })
+
+    
+   
 
    
 
