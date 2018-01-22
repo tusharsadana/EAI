@@ -4,11 +4,16 @@ var x = document.getElementsByClassName("youtube")[0]
 var user = firebase.auth().currentUser;
 
 
+
+
 firebase.auth().onAuthStateChanged(function(user) {
-var LoggedIn ='<li class="youtube">Welcome! Aashis <a href="#modal" id= "modal_trigger" style ="margin-left:1em">Logout</a> </li>'
+    
+var LoggedIn ='<li class="youtube">Welcome!' +' ' + user.uid +' '+ '<a href="#modal" id= "modal_trigger" style ="margin-left:1em">Logout</a> </li>'
 
     if (user) {
-        LoggedIn + x.innerHTML;
+        
+       // LoggedIn + x.innerHTML;
+       
     } else {
      
        //todo : User is not logged in do somthing
@@ -138,4 +143,33 @@ function Signin(){
     
     }
     
+function login(){
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("pass").value;
+    console.log(email);
+    console.log(password);
 
+    event.preventDefault();
+    firebase.auth().signInWithEmailAndPassword(email, password).then(user =>{
+
+        var user = firebase.auth().currentUser;
+       
+        console.log(user);
+        
+    })
+    
+    .catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.log(errorMessage)
+      });
+      user();
+    }
+function logout(){
+    firebase.auth().signOut().then(function() {
+        // Sign-out successful.
+      }).catch(function(error) {
+        // An error happened.
+      });
+    }

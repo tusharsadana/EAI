@@ -37,6 +37,7 @@
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 	
+	<script src='firebase/userAuth.js'></script>
 
     <!-- Favicon and touch icons  -->
     <link href="icon/eai48.png" sizes="48x48">
@@ -161,13 +162,14 @@
 						<p>Email Address</p>
 						<input type="text" name="First Name" placeholder="" required="" id = "eMail"/>
 					</div>	
+					
+                    </div>
+
+                    <div class="right-agileinfo same">
 					<div class="gaps">
 						<p>Password</p>
 							<input type="password" name="Last Name" placeholder="" minlength="8" required="" id = "password"/>
                     </div>
-                    </div>
-
-                    <div class="right-agileinfo same">
 					<div class="gaps">
 						<p>Re-Type Password</p>
 						<input type="password" name="First Name" placeholder="" minlength="8" required="" id = "password2"/>
@@ -175,7 +177,7 @@
                 </div>
                 <div class="clear"></div>
                 <!-- <div class="g-recaptcha" style= "display: table;margin-right: auto;margin-left: auto;margin-top:2em" data-sitekey="6LfkQkEUAAAAABjcIyKUJQPtwrEdj2psc8-ZqHOE"></div> -->
-				<input type="submit" value="Submit">
+				<input class="button1" type="submit" value="Submit">
 			</form>
 		</div>
    </div>
@@ -771,6 +773,48 @@ p.wickedpicker__title {
 		margin: 1.1em 1.5em 0;
 	}
 }
+button {
+	border: none;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;	
+	text-transform: uppercase;		
+    color: #ffffff;
+  	background-image: none;
+  	height: 50px;
+  	background-color: #222;
+  	line-height: 50px;
+  	padding: 0 24px 0 32px;
+  	cursor: pointer;
+  	/*letter-spacing: 1px;*/
+  	white-space: nowrap;
+  	border: none;
+  	-webkit-border-radius: 3px;
+ 	   -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+         -o-border-radius: 3px;
+            border-radius: 3px;
+   display: inline-block;
+   	-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		 -o-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background-color: #33aab9;
+	border-color: #33aab9;
+}
+
 
 </style>
 
