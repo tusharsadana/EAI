@@ -17,7 +17,7 @@ var LoggedIn ='<li class="youtube">Welcome!' +' ' + user.email +' '+ '<a href=""
          var member = document.getElementById('membership');
         member.style.display="none";
         var course = document.getElementById('course');
-        course.style.display="block";
+        course.style.display="inline-block";
        
     } else {
     

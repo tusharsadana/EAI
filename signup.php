@@ -822,7 +822,10 @@ input[type="submit"]:hover {
 <script src='https://andwecode.com/wp-content/uploads/2015/10/jquery.leanModal.min_.js'></script>
 <script src= "javascript/test.js"></script>
 
-
+<script>
+	var check = document.getElementById('menu');
+	check.setAttribute('style', 'margin:0 !important');
+	</script>
  
 
 <script language="javascript">

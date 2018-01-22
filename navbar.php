@@ -86,7 +86,7 @@
          <!-- //mobile menu button -->
          <nav id="mainnav" class="mainnav">
             
-            <ul class="menu menuless" >
+            <ul class="menu menuless" id="menu">
                <li><a href ="index.php">Home</a></li>
                <li><a href ="events.php">Events</a></li>
                <li id="membership"><a href="signup.php">Membership</a></li>
