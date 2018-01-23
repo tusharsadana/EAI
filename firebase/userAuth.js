@@ -140,12 +140,15 @@ function Signin() {
 
                 var user = firebase.auth().currentUser;
                 var ref = firebase.database().ref('Students/' + user.uid);
-                ref.set(data);
-              
-              //todo read firebase functions
-                const PushPromise = new Promise((resolve, reject) => {
-                   
+                ref.set(data).then(function(snapshot) {
+                    // The Promise was "fulfilled" (it succeeded).
+                    location.href = "index.php";
+                  }, function(error) {
+                    // The Promise was rejected.
+                    console.error(error);
                   });
+              
+              
             })
             .catch(error => {
                 console.log(error)
