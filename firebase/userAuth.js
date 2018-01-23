@@ -141,8 +141,11 @@ function Signin() {
                 var user = firebase.auth().currentUser;
                 var ref = firebase.database().ref('Students/' + user.uid);
                 ref.set(data);
-                console.log(user);
-                location.href = "index.php";
+              
+              //todo read firebase functions
+                const PushPromise = new Promise((resolve, reject) => {
+                   
+                  });
             })
             .catch(error => {
                 console.log(error)

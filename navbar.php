@@ -85,25 +85,22 @@
          </div>
          <!-- //mobile menu button -->
          <nav id="mainnav" class="mainnav">
-            
             <ul class="menu menuless" id="menu">
                <li><a href ="index.php">Home</a></li>
                <li><a href ="events.php">Events</a></li>
                <li id="membership"><a href="signup.php">Membership</a></li>
                <li id="course" style="display:none;"><a href="course.php">Courses</a> </li>
                <li class="has-sub">
-                  <a href="courses-grid.html">About</a>
+                  <a href="#">About</a>
                   <ul class="submenu">
-                     <li><a href="courses-grid.html">Eai Society</a></li>
-                     <li><a href="courses-grid-sidebar.html">Members</a></li>
+                     <li><a href="#">Eai Society</a></li>
+                     <li><a href="#">Members</a></li>
                   </ul>
                </li>
                <li><a href="contact.php">Contact</a>
                </li>
             </ul>
-
          </nav>
-
          <!-- /.mainnav -->    
       </div>
       <!-- /.nav-wrap -->
@@ -121,6 +118,7 @@
 <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-database.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src= "javascript/test.js"></script>
 <script src="firebase/init.js" type="text/javascript"></script>
 <script src="firebase/userAuth.js" type="text/javascript"></script>
