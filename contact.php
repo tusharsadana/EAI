@@ -59,8 +59,8 @@
                         </div>
                         <div class="details">
                            <h5>Our Location</h5>
-                           <p>350 Fifth Avenue, 34th floor New York</p>
-                           <p>NY 10118-3299 USA</p>
+                           <p>Dehmi Kalan, Jaipur-Ajmer Expressway,</p>
+                           <p>Jaipur,India</p>
                         </div>
                      </div>
                   </div>
@@ -73,8 +73,9 @@
                         </div>
                         <div class="details">
                            <h5>Contact us Anytime</h5>
-                           <p>Mobile: (+1) 800 555 888 </p>
-                           <p>Fax: (+1) 800 666 999</p>
+                           <p>Mobile: +91 - 95714 49301</p>
+                           <p>Alternative:          </p>
+                          
                         </div>
                      </div>
                   </div>
@@ -104,13 +105,13 @@
                   <div class="field clearfix">
                      <div class="wrap-type-input">
                         <div class="input-wrap name">
-                           <input type="text" value="" tabindex="1" placeholder="Name" name="name" id="name" required>
+                           <input type="text" value="" tabindex="1" placeholder="Name" name="name" id="name" required="" style=" background-color: transparent; ">
                         </div>
                         <div class="input-wrap email">
-                           <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email" required>
+                           <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email2" required="" style=" background-color: transparent; ">
                         </div>
                         <div class="input-wrap last Subject">
-                           <input type="text" value="" placeholder="Subject (Optinal)" name="subject" id="subject" >
+                           <input type="text" value="" placeholder="Subject (Optional)" name="subject" id="subject" style=" background-color: transparent; " >
                         </div>
                      </div>
                      <div class="textarea-wrap">
@@ -136,7 +137,45 @@
          </div>
          <!-- /.container -->
       </section>
-      <?php require('footer.php');?>
+
+      
+
+      
+<!-- Bottom -->
+<div class="bottom" style = "padding-top:2em">
+   <div class="container">
+      <ul class="flat-socials-v1">
+         <li class="facebook">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+         </li>
+         <li class="twitter">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+         </li>
+         <li class="vimeo">
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+         </li>
+         <li class="vimeo">
+            <a href="#"><i class="fa fa-youtube "></i></a>
+         </li>
+         </li>
+         <li class="vimeo">
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+         </li>
+      </ul>
+      <div class="row">
+         <div class="container-bottom">
+            <div class="copyright">
+               <p> Designed and Developed by <span><a href="#">Aashis Kumar</a> and <a href="#">Tushar Sadana</a></span></p>
+            </div>
+         </div>
+         <!-- /.container-bottom -->
+      </div>
+      <!-- /.row -->
+   </div>
+   <!-- /.container -->
+</div>
+</div><!-- /. boxed -->
+      
       <a class="go-top">
       <i class="fa fa-chevron-up"></i>
       </a>
@@ -151,4 +190,64 @@
       <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
       <script type="text/javascript" src="javascript/main.js"></script>
    </body>
+
+   <style>
+   
+
+textarea,
+input[type="text"],
+input[type="email"],
+
+input[type="color"] {	
+	border: 1px solid #e5e5e5;
+  	height: 50px;
+  	/*padding: 20px;  	*/
+  	font-size: 12px;
+  	line-height: 19px;
+  	color: #333333;
+  	max-width: 100%;
+  	margin-bottom: 20px;
+  	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		 -o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+	width: 100%;
+    padding: 12px 35px;
+    padding-top: 12px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+
+	border: 1px solid #428bdc;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+            box-shadow: none;
+        
+}
+
+
+textarea, 
+input[type="text"],
+input[type="email"], 
+.uneditable-input,
+.dropdown-menu,
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus {
+	-webkit-appearance: none;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	     -o-box-shadow: none;
+	        box-shadow: none;
+        
+}
+
+   </style>
 </html>

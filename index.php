@@ -163,48 +163,7 @@
          </div>
       </div>
       <!-- END REVOLUTION SLIDER -->
-      <div class="cards">
-         <div class=" card [ is-collapsed ] ">
-            <div class="card__inner [ js-expander ]">
-               <span>COMMUNITY</span>
-               <i class="fa fa-folder-o"></i>
-            </div>
-            <div class="card__expander">
-               <i class="fa fa-close [ js-collapser ]"></i>
-               A group of computer professionals which keeps the vision to make a society enriched with tools of technology and knowledge. The society works for technologically and analytically sound people. The platform is set to share their thoughts, ideas and notions to make it to the cause of human social welfare.
-            </div>
-         </div>
-         <div class=" card [ is-collapsed ] ">
-            <div class="card__inner [ js-expander ]">
-               <span>DEVELOPMENT</span>
-               <i class="fa fa-folder-o"></i>
-            </div>
-            <div class="card__expander">
-               <i class="fa fa-close [ js-collapser ]"></i>
-               An open platform to flourish the research and innovative ideas among the members as well as the other people. We invite research projects to be worked upon, sharing of ideas which can be further taken to a global level. The society has potential to meet the standards and challenges with the help of the team.
-            </div>
-         </div>
-         <div class=" card [ is-collapsed ] ">
-            <div class="card__inner [ js-expander ]">
-               <span>COLLABORATION</span>
-               <i class="fa fa-folder-o"></i>
-            </div>
-            <div class="card__expander">
-               <i class="fa fa-close [ js-collapser ]"></i>
-               Strength of any group lies in its partners. EAI looks for its collaborative partners to extend their support in order to fulfill its objectives and the cause for which it has come into existence. We invite industry, society and academic partners to associate with EAI in any form for the social cause.
-            </div>
-         </div>
-         <div class=" card [ is-collapsed ] ">
-            <div class="card__inner [ js-expander ]">
-               <span>SPONSORSHIP</span>
-               <i class="fa fa-folder-o"></i>
-            </div>
-            <div class="card__expander">
-               <i class="fa fa-close [ js-collapser ]"></i>
-               EAI offers technical sponsorship to the events being conducted at various levels and stages as the society has subject experts from various domains. Conference can get the reviewers in the form of technical sponsorship.EAI welcomes any donation in monetary or non-monetary form from any organization, society etc.
-            </div>
-         </div>
-      </div>
+      
       <div class="flat-row course row-bg">
          <div class = "container">
             <div class="row">
@@ -470,7 +429,7 @@
       <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
       <script type="text/javascript" src="javascript/jquery-validate.js"></script>     
       <script type="text/javascript" src="javascript/main.js"></script>
-      <script type="text/javascript" src="javascript/indexCards.js"></script>
+      
       <!-- Revolution Slider -->
       <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
       <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>

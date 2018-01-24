@@ -20,26 +20,38 @@ function user() {
                 x.innerHTML = LoggedIn;
             } else {
                 //get first name
-                firebase.database().ref('Students/' + user.uid).once('value').then(function(snapshot) {
+                firebase.database().ref('Users/' + user.uid).once('value').then(function(snapshot) {
                     username = (snapshot.val() && snapshot.val().FirstName) || 'Anonymous';
 
 
                     var LoggedIn = '<li class="youtube">Welcome!' + ' ' + Upper(username) + ' ' + '<a href="" onclick="logout()" style ="margin-left:1em">Logout</a> </li>'
                     x.innerHTML = LoggedIn;
-                    var member = document.getElementById('membership');
-                    member.style.display = "none";
-                    var course = document.getElementById('course');
-                    course.style.display = "inline-block";
+                    
+
                     document.cookie = "username=" + username + "; path=/";
                 });
 
+               
 
             }
+
+            var member = document.getElementById('membership');
+            member.style.display = "none";
+            
+            var course = document.getElementById('course');
+            course.style.display = "inline-block";
 
 
 
 
         } else {
+
+
+            var member = document.getElementById('membership');
+            member.style.display = "inline-block";
+            
+            var course = document.getElementById('course');
+            course.style.display = "none";
 
 
 
@@ -71,8 +83,12 @@ function Signin() {
     var eMail = document.getElementById("eMail").value;
     var password = document.getElementById("password").value;
     var password2 = document.getElementById("password2").value;
+    var membership = document.getElementById("plan").value;
     var noth = "0";
+    
 
+
+    
 
 
     //to delete
@@ -108,6 +124,11 @@ function Signin() {
 
     if (password == password2) {
 
+        
+
+        
+       
+
         var details = {
             Country: country,
             State: state,
@@ -129,7 +150,8 @@ function Signin() {
             Follows: courses,
             DateOfBirth: dateOfBirth,
             Gender: gender,
-            Subscription: rooms
+            Subscription: rooms,
+            Type : membership
         }
 
 
@@ -139,10 +161,25 @@ function Signin() {
             .then(user => {
 
                 var user = firebase.auth().currentUser;
-                var ref = firebase.database().ref('Students/' + user.uid);
+                var ref = firebase.database().ref('Users/' + user.uid);
                 ref.set(data).then(function(snapshot) {
                     // The Promise was "fulfilled" (it succeeded).
-                    location.href = "index.php";
+
+                    if (membership=="Teacher"){
+                        ref= firebase.database().ref('Teachers/'+user.uid);
+                        ref.set(user.email).then(function(snapshot){
+                            location.href = "index.php";
+                        }, function(error) {
+                            // The Promise was rejected.
+                            console.error(error);
+                          });
+                    }
+                    else{
+                        location.href = "index.php";
+                    }
+
+
+                    
                   }, function(error) {
                     // The Promise was rejected.
                     console.error(error);

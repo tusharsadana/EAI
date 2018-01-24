@@ -63,7 +63,7 @@
                   <div class="gaps">
                      <p>Primary Interest</p>
                      <select class="form-control" id = "intrest" required="">
-                        <option>Select Interest </option>
+                        
                         <option>Computer Applications</option>
                         <option >Computer Systems Organization</option>
                         <option >Computing Methodologies</option>
@@ -114,21 +114,29 @@
                <div class="left-agileits-w3layouts same">
                   <div class="gaps">
                      <p>Email Address</p>
-                     <input type="text" name="First Name" placeholder="" required="" id = "eMail"/>
+                     <input type="text" name="First Name" placeholder="" required="" id = "eMail" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"/>
                   </div>
+
+                  <div class="gaps">
+                  <p>Membership Type</p>
+                  <select class="form-control" id = "plan" required="">
+                     <option>Student</option>
+                     <option>Teacher</option>
+                  </select>
+               </div>
                </div>
                <div class="right-agileinfo same">
                   <div class="gaps">
                      <p>Password</p>
-                     <input type="password" name="Last Name" placeholder="" minlength="8" required="" id = "password"/>
+                     <input type="password" name="Last Name" pattern=".{8,}"   required title="8 characters minimum" placeholder="" minlength="8" required="" id = "password"/>
                   </div>
                   <div class="gaps">
                      <p>Re-Type Password</p>
-                     <input type="password" name="First Name" placeholder="" minlength="8" required="" id = "password2"/>
+                     <input type="password" name="First Name" pattern=".{8,}"   required title="8 characters minimum" placeholder="" minlength="8" required="" id = "password2"/>
                   </div>
                </div>
                <div class="clear"></div>
-               <!-- <div class="g-recaptcha" style= "display: table;margin-right: auto;margin-left: auto;margin-top:2em" data-sitekey="6LfkQkEUAAAAABjcIyKUJQPtwrEdj2psc8-ZqHOE"></div> -->
+            <div class="g-recaptcha" style= "display: table;margin-right: auto;margin-left: auto;margin-top:2em" data-sitekey="6LfkQkEUAAAAABjcIyKUJQPtwrEdj2psc8-ZqHOE"></div> 
                <input class="button1" type="submit" value="Submit">
             </form>
          </div>
