@@ -7,7 +7,7 @@
          <div class="row" >
             <div class="col-md-3">
                <div class="widget widget-text">
-                  <img src="images/index/manipal1.jpg" alt="image">
+                  <img src="images/index/EAI.jpg" alt="image">
                   <ul>
                      <li class="address">Dehmi Kalan, <br>Jaipur-Ajmer Expressway, Rajasthan</li>
                      <li class="phone"><a href="#">+91 - 95714 49301</a></li>
@@ -48,7 +48,7 @@
                   <h5 class="widget-title">Quick Contact</h5>
                   <div class="row">
                      <div class="col-md-12">
-                        <form class="flat-contact-form" id="contactform" method="post" action="http://themesflat.com/html/educate/contact/contact-process.php">
+                        <form class="flat-contact-form" id="contactform" method="post" action="#">
                            <input type="email" value="" tabindex="2" placeholder="Your Email" name="email" id="email-contact" required="">
                            <textarea class="type-input" tabindex="3" placeholder="Message" name="message" id="message-contact" required=""></textarea>
                            <div class="submit-wrap">
