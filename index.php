@@ -12,7 +12,7 @@
       <!-- Theme Style -->
       <link rel="stylesheet" type="text/css" href="stylesheets/shortcodes.css">
       <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-      <link rel ="stylesheet" type="text/css" href="stylesheets/index_card.css">
+
       <!-- Responsive -->
       <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
       <!-- Colors -->
@@ -40,17 +40,17 @@
                <img src="images/index/manipal1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                <!-- LAYERS -->
                <!-- LAYER NR. 12 -->
-               <div class="tp-caption title-slide" 
-                  id="slide-3047-layer-1" 
-                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                  data-y="['middle','middle','middle','middle']" data-voffset="['-117','-117','-117','-50']" 
+               <div class="tp-caption title-slide"
+                  id="slide-3047-layer-1"
+                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']" data-voffset="['-117','-117','-117','-50']"
                   data-fontsize="['55','55','40','25']"
                   data-lineheight="['55','55','40','30']"
                   data-width="none"
                   data-height="none"
                   data-whitespace="nowrap"
-                  data-type="text" 
-                  data-responsive_offset="on"                             
+                  data-type="text"
+                  data-responsive_offset="on"
                   data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                   data-textAlign="['left','left','left','left']"
                   data-paddingtop="[10,10,10,10]"
@@ -59,15 +59,15 @@
                   data-paddingleft="[0,0,0,0]"
                   style="z-index: 16; white-space: nowrap;text-transform:left;">EAI Society</div>
                <!-- LAYER NR. 13 -->
-               <div class="tp-caption sub-title" 
-                  id="slide-3047-layer-4" 
-                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                  data-y="['middle','middle','middle','middle']" data-voffset="['-45','-45','-45','0']" 
+               <div class="tp-caption sub-title"
+                  id="slide-3047-layer-4"
+                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']" data-voffset="['-45','-45','-45','0']"
                   data-width="660"
                   data-height="none"
                   data-whitespace="nowrap"
-                  data-type="text" 
-                  data-responsive_offset="on" 
+                  data-type="text"
+                  data-responsive_offset="on"
                   data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                   data-textAlign="['center','center','center','center']"
                   data-paddingtop="[0,0,0,0]"
@@ -75,21 +75,21 @@
                   data-paddingbottom="[0,0,0,0]"
                   data-paddingleft="[0,0,0,0]"
                   style="z-index: 17; white-space: nowrap;text-transform:left;">Founded in the year 2017 EAI Society is one of its kind <br>Asian syndicate working in the field of Science, Information Technology, Data Science.</div>
-               <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider bg-orange"         
+               <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider bg-orange"
                   data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                  data-x="center" 
-                  data-y="center" 
-                  data-hoffset="-75" 
-                  data-voffset="83" 
+                  data-x="center"
+                  data-y="center"
+                  data-hoffset="-75"
+                  data-voffset="83"
                   data-width="['173']"
                   data-height="['50']">REGISTER NOW
                </a><!-- END LAYER LINK -->
-               <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider"         
+               <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider"
                   data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                  data-x="center" 
-                  data-y="center" 
-                  data-hoffset="94" 
-                  data-voffset="83" 
+                  data-x="center"
+                  data-y="center"
+                  data-hoffset="94"
+                  data-voffset="83"
                   data-width="['150']"
                   data-height="['50']">KNOW MORE
                </a><!-- END LAYER LINK -->
@@ -98,34 +98,34 @@
             <li data-index="rs-3048" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="assets/images/fitness-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="HTML5 Video" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                <!-- MAIN IMAGE -->
                <img src="images/index/research.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-               <!-- LAYERS -->                        
+               <!-- LAYERS -->
                <!-- BACKGROUND VIDEO LAYER
-                  <div class="" 
-                      data-forcerewind="on" 
-                      data-volume="mute" 
-                      data-vimeoid="82642494" 
-                      data-videowidth="100%" 
-                      data-videoheight="100%" 
-                      data-videocontrols="none" 
-                      data-videostartat="00:00" 
-                      data-videoendat="00:48" 
-                      data-videoloop="loop" 
-                      data-forceCover="1" 
-                      data-aspectratio="4:3" 
-                      data-autoplay="true" 
+                  <div class=""
+                      data-forcerewind="on"
+                      data-volume="mute"
+                      data-vimeoid="82642494"
+                      data-videowidth="100%"
+                      data-videoheight="100%"
+                      data-videocontrols="none"
+                      data-videostartat="00:00"
+                      data-videoendat="00:48"
+                      data-videoloop="loop"
+                      data-forceCover="1"
+                      data-aspectratio="4:3"
+                      data-autoplay="true"
                       data-autoplayonlyfirsttime="false" ></div> -->
                <!-- LAYER NR. 12 -->
-               <div class="tp-caption title-slide" 
-                  id="slide-3047-layer-1" 
-                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                  data-y="['middle','middle','middle','middle']" data-voffset="['-117','-117','-117','-50']" 
+               <div class="tp-caption title-slide"
+                  id="slide-3047-layer-1"
+                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']" data-voffset="['-117','-117','-117','-50']"
                   data-fontsize="['55','55','40','25']"
                   data-lineheight="['55','55','40','30']"
                   data-width="none"
                   data-height="none"
                   data-whitespace="nowrap"
-                  data-type="text" 
-                  data-responsive_offset="on"                      
+                  data-type="text"
+                  data-responsive_offset="on"
                   data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
                   data-textAlign="['left','left','left','left']"
                   data-paddingtop="[10,10,10,10]"
@@ -134,15 +134,15 @@
                   data-paddingleft="[0,0,0,0]"
                   style="z-index: 16; white-space: nowrap;text-transform:left;">RESEARCH</div>
                <!-- LAYER NR. 13 -->
-               <div class="tp-caption sub-title" 
-                  id="slide-3047-layer-4" 
-                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                  data-y="['middle','middle','middle','middle']" data-voffset="['-45','-45','-45','0']" 
+               <div class="tp-caption sub-title"
+                  id="slide-3047-layer-4"
+                  data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                  data-y="['middle','middle','middle','middle']" data-voffset="['-45','-45','-45','0']"
                   data-width="660"
                   data-height="none"
                   data-whitespace="nowrap"
-                  data-type="text" 
-                  data-responsive_offset="on" 
+                  data-type="text"
+                  data-responsive_offset="on"
                   data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                   data-textAlign="['center','center','center','center']"
                   data-paddingtop="[0,0,0,0]"
@@ -150,11 +150,11 @@
                   data-paddingbottom="[0,0,0,0]"
                   data-paddingleft="[0,0,0,0]"
                   style="z-index: 17; white-space: nowrap;text-transform:left;">We opine that every student have Larry Page hidden inside just<br> need right direction and henceforth we guide them in the right direction.</div>
-               <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider bg-orange"         
+               <a href="http://www.themepunch.com/" target="_self" class="tp-caption flat-button-slider bg-orange"
                   data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                  data-x="center" 
-                  data-y="center" 
-                  data-voffset="33" 
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="33"
                   data-width="['153']"
                   data-height="['50']">KNOW MORE
                </a><!-- END LAYER LINK -->
@@ -163,7 +163,7 @@
          </div>
       </div>
       <!-- END REVOLUTION SLIDER -->
-      
+
       <div class="flat-row course row-bg">
          <div class = "container">
             <div class="row">
@@ -310,9 +310,9 @@
          <div class = " flat-row lastest-new">
            <div class="container">
                <div class="flat-title-section">
-                   <h1 class="title">LATEST NEWS</h1>                
+                   <h1 class="title">LATEST NEWS</h1>
                </div>
-         
+
                <div class="row post-lastest-new">
                    <div class="post col-md-4 col-xs-12 col-sm-6 flat-hover-zoom">
                        <div class="featured-post">
@@ -320,77 +320,77 @@
                                <img src="images/blog/Blog-02.jpg" alt="image">
                            </div>
                        </div>
-         
+
                        <div class="date-post">
                            <span class="numb">18</span>
                            <span>May</span>
                        </div>
-         
+
                        <div class="content-post">
                            <h2 class="title-post">
                                <a href="flat-information.html">Those Other College Expenses You Aren't Thinking About</a>
                            </h2>
-         
+
                            <div class="entry-content">
                                <p>Thousands of teenagers across the UK will have school lessons in mindfulness in an experiment designed to see if it can protect against mental illness.</p>
                            </div>
-         
+
                            <div class="entry-meta style1">
                                <p>Posted in:<span><a href="#"> Hobbies</a></span></p>
                                <p>Tags:<span><a href="#"> church,</a></span><span><a href="#"> educate</a></span></p>
                            </div>
                        </div>
                    </div>
-         
+
                    <div class="post col-md-4 col-xs-12 col-sm-6 flat-hover-zoom">
                        <div class="featured-post">
                            <div class="entry-image">
                                <img src="images/blog/Blog-03.jpg" alt="image">
                            </div>
                        </div>
-         
+
                        <div class="date-post">
                            <span class="numb">18</span>
                            <span>May</span>
                        </div>
-         
+
                        <div class="content-post">
                            <h2 class="title-post">
                                <a href="flat-information.html">Those Other College Expenses You Aren't Thinking About</a>
                            </h2>
-         
+
                            <div class="entry-content">
                                <p>Thousands of teenagers across the UK will have school lessons in mindfulness in an experiment designed to see if it can protect against mental illness.</p>
                            </div>
-         
+
                            <div class="entry-meta style1">
                                <p>Posted in:<span><a href="#"> Hobbies</a></span></p>
                                <p>Tags:<span><a href="#"> church,</a></span><span><a href="#"> educate</a></span></p>
                            </div>
                        </div>
                    </div>
-         
+
                    <div class="post col-md-4 col-xs-12 col-sm-6 flat-hover-zoom">
                            <div class="featured-post">
                                <div class="entry-image">
                                    <img src="images/blog/Blog-01.jpg" alt="image">
                                </div>
                            </div>
-         
+
                            <div class="date-post">
                                <span class="numb">18</span>
                                <span>May</span>
                            </div>
-         
+
                            <div class="content-post">
                                <h2 class="title-post">
                                    <a href="flat-information.html">Those Other College Expenses You Aren't Thinking About</a>
                                </h2>
-         
+
                                <div class="entry-content">
                                    <p>Thousands of teenagers across the UK will have school lessons in mindfulness in an experiment designed to see if it can protect against mental illness.</p>
                                </div>
-         
+
                                <div class="entry-meta style1">
                                    <p>Posted in:<span><a href="#"> Hobbies</a></span></p>
                                    <p>Tags:<span><a href="#"> church,</a></span><span><a href="#"> educate</a></span></p>
@@ -398,7 +398,7 @@
                            </div>
                        </div>
                </div>
-         
+
            </div>
          </div>-->
       <section class="flat-row news-letter">
@@ -406,7 +406,7 @@
             <div class="have-question">
                <h2 class="">Have any question for us?</h2>
                <p class="flat-lh-28">
-                  Have any doubt about the membership fee, want to be a mentor or found a bug on the website. Feel free to contact us.  
+                  Have any doubt about the membership fee, want to be a mentor or found a bug on the website. Feel free to contact us.
                </p>
                <div class="flat-button-container">
                   <a class="read-more" href="#">Go to FAQ page</a>
@@ -414,27 +414,27 @@
             </div>
          </div>
       </section>
-      <?php require('footer.php');?>
+
       <a class="go-top">
       <i class="fa fa-chevron-up"></i>
       </a>
       <!-- Javascript -->
       <script type="text/javascript" src="javascript/jquery.min.js"></script>
       <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
-      <script type="text/javascript" src="javascript/jquery.easing.js"></script> 
-      <script type="text/javascript" src="javascript/owl.carousel.js"></script> 
+      <script type="text/javascript" src="javascript/jquery.easing.js"></script>
+      <script type="text/javascript" src="javascript/owl.carousel.js"></script>
       <script type="text/javascript" src="javascript/jquery-waypoints.js"></script>
-      <script type="text/javascript" src="javascript/jquery-countTo.js"></script>    
+      <script type="text/javascript" src="javascript/jquery-countTo.js"></script>
       <script type="text/javascript" src="javascript/parallax.js"></script>
       <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
-      <script type="text/javascript" src="javascript/jquery-validate.js"></script>     
+      <script type="text/javascript" src="javascript/jquery-validate.js"></script>
       <script type="text/javascript" src="javascript/main.js"></script>
-      
+
       <!-- Revolution Slider -->
       <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
       <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
       <script type="text/javascript" src="revolution/js/slider.js"></script>
-      <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
+      <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
       <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
       <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
       <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
@@ -445,4 +445,5 @@
       <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
       <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
    </body>
+     <?php require('footer.php');?>
 </html>
